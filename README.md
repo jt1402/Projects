@@ -8,3 +8,8 @@ All of the projects were remade by myself.
 * Plants
 * Coffee Website 
 * Scalla
+## Technologies:
+* HTML
+* CSS 
+* Javascript 
+* SCSS
