@@ -1,0 +1,59 @@
+@use "../custom" as *;
+
+.products{
+}
+
+
+.products-start{
+    column-gap:50px;
+    font-family: $ff;
+    transform: translate(2.5%);
+    
+}
+.products-three {
+    
+    background-color: #F0F0F0;
+
+    span {
+        i {
+            font-size: 30px;
+            padding: 1rem 0.5rem;
+            
+        }
+    }
+
+
+    h2{
+        font-size: 14px;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}   
+
+
+.prdoucts-left-column{
+   
+    
+    h1{
+        padding-top: 0.4rem;
+        font-size: 19px;
+        font-size: 700;
+        background-color: #F0F0F0;
+    }
+}
+
+
+.prdoucts-right-column{
+    column-gap: 50px;
+
+}
+
+.products-img{
+
+
+    img{
+        width: 6rem;
+
+    }
+}

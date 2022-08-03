@@ -1,0 +1,58 @@
+@use "../custom" as *;
+
+.heading {
+    padding: 0 2rem;
+
+    background-color: #f0f0f0;
+}
+
+.heading-left {
+    padding-top: 0.5rem;
+    
+    font-family: $ff;
+    p {
+        @include media-breakpoint-down(
+            sm
+        ) {
+            text-align: center;
+        }
+        font-size: 14px;
+    }
+}
+
+.heading-right {
+    
+    font-family: $ff;
+   
+    @include media-breakpoint-down(
+        md
+    ) {
+        display: none;
+    }
+
+
+
+        
+    
+    a {
+        @include media-breakpoint-down(
+            md
+        ) {
+            display: none;
+        }
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+
+        font-size: 14px;
+        
+           
+
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+}

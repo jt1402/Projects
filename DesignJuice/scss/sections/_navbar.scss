@@ -1,0 +1,29 @@
+@use '../custom' as *;
+
+
+.menu{
+    font-family: 'Inter', sans-serif;
+    background:$primary;
+    
+    // border-bottom{
+    //       margin-left: 25rem;  
+    // }
+    
+
+
+    li{
+
+        padding: 0.978rem;
+
+    }
+
+
+
+    a{
+        
+        color: $white !important;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+}

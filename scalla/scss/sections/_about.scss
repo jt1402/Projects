@@ -1,0 +1,19 @@
+@use '../custom' as*;
+
+
+
+
+.about-text{
+
+
+    h3{
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 14px;
+        font-weight: 700;
+    }
+
+    h5{
+        font-size: 22px;
+    }
+}

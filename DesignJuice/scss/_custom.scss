@@ -1,0 +1,43 @@
+
+// importing bootstrap
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary:  #0d5eff;
+$secondary:    #0057fa;
+$yellow: #ffc107;
+
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+// MY THEME COLORS 
+$purple-dark:  #9926f0;
+$purple-light:  #BB6EF5;
+$pink:    #d122e3;
+$footer: #151414;
+
+// #######################################
+//		NO NEED TO CUSTOM THE GRAY COLOR IF YOU DO NOT
+// #######################################
+
+// ##########################################
+//   OPTION 2: 
+// - IMPORT IMPORT ONLY THE PART OF BOOTSTRAP YOU WANT TO USE
+// ##########################################
+
+// @import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+
+// Include any optional Bootstrap components as you like
+// @import "../node_modules/bootstrap/scss/root";
+// @import "../node_modules/bootstrap/scss/reboot";

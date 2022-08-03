@@ -1,0 +1,88 @@
+@use "../custom" as *;
+
+.list-navigation {
+    
+    ul {
+        
+        li {
+            list-style: none;
+            a {
+                font-family: $ff;
+                font-size: 16px;
+                text-decoration: none !important;
+                color: black;
+
+                &:hover {
+                    color: $primary;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 1230px) {
+        display: none;
+    }
+}
+
+.list-navigaton-2 {
+    margin-left: 0.5rem;
+}
+
+.cat-dropdown {
+    a {
+        color: #fff !important;
+        border: solid
+            1px
+            #9bbab2;
+        padding-right: 8.6rem;
+        background-color: #9bbab2;
+    }
+}
+
+.icon-navigation {
+    font-family: $ff;
+    font-size: 17px;
+    padding-top: 0.2rem;
+
+    i {
+        color: $ff;
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+}
+
+.nav-carousel-style {
+    @media only screen and (max-width: 1230px) {
+        display: none;
+    }
+    li {
+        list-style: none;
+        border: 1px
+            solid
+            rgb(
+                151,
+                150,
+                150
+            );
+    }
+
+    h1 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: -10rem;
+        font-family: $ff;
+        font-size: 16px;
+        cursor: pointer;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+
+    i {
+        padding-right: 0.7rem;
+    }
+}
