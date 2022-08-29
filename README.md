@@ -1,5 +1,5 @@
 # Frontend-Porjects
-All of the projects were remade by myself.
+All of the projects were remade by myself. Some of them are not responsible for some devices.
 
 ## Sites:
 * Crafters
