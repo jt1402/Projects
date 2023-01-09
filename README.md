@@ -1,12 +1,12 @@
 # Frontend-Porjects
-All of the projects were remade by myself. Some of them are not responsible for some devices.
+All of the projects were remade by myself.
 
 ## Sites:
 * Crafters
 * DesignJuice
 * Patrix
 * Plants
-* Coffee Website 
+* Zoo Website 
 * Scalla
 ## Technologies:
 * HTML
