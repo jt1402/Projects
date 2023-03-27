@@ -1,5 +1,12 @@
 @use "../custom" as *;
 
+.img1 {
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-size: cover;
+}
+
 .project {
     &__item {
         position: relative;

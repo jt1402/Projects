@@ -58,6 +58,7 @@ section{
     text-transform: uppercase;
 }
 
+
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -65,7 +66,7 @@ section{
     font-size: 1.7rem;
     color:#fff;
     background: var(--main-color);
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .btn:hover{
