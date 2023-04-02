@@ -7,7 +7,6 @@
     background-color: $footer;
 }
 
-// STYLE THE CONTACT-BOX CONTENT 
 .contact-box {
     position: relative;
 
@@ -17,7 +16,7 @@
        padding-top: 0.5rem;
 
        @include media-breakpoint-up(sm) {
-        width: 4rem;
+        width: 4rem;    
        }
     }
 
@@ -51,8 +50,7 @@
         }
     }
 }
-
-// STYLE THE SOCIAL MEDIA CONTENT 
+ 
 .footer-sm {
 
 
@@ -75,7 +73,7 @@
     }
 }
 
-// STYLE THE CAMPANY INFO CONTENT 
+
 .campany-list {
     display: block;
     list-style-type: none;
@@ -96,7 +94,6 @@
     }
 }
 
-// STYLE THE COPYRIGHT  CONTENT 
 .footer-bottom {
     background-color: $black;
 
@@ -118,8 +115,6 @@
     }
 }
 
-
-// STYLE THE BACK TO TOP BUTTON 
 .back-to-top {
     position: fixed;
     width: 3rem;

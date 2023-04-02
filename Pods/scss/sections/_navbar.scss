@@ -1,24 +1,47 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 
+#navbar {
+  background-color: #333;
+  /* Black background color */
+  position: fixed;
+  /* Make it stick/fixed */
+  top: 0;
+  /* Stay on top */
+  width: 100%;
+  /* Full width */
+  transition: top 0.4s;
+  /* Transition effect when sliding down (and up) */
+  z-index: 99999;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.logo {
+  img {
+    width: 10%;
+  }
+}
+
 .menu {
-    @include gradient;
+  @include gradient;
 
 
-    li {
+  li {
+    padding: 0 0.7rem;
+
+    a {
+      color: $white;
       padding: 0 0.7rem;
+      text-transform: capitalize;
+      font-weight: 600;
 
-      a {
-        color: $white;
-        padding: 0 0.7rem;
-        text-transform: capitalize;
-        font-weight: 600;      
-
-      }
-      &:hover {
-        color: $white;
-      }
-  
     }
-    
+
+    &:hover {
+      color: $white;
+    }
+
+  }
+
 }

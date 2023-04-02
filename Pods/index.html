@@ -5,128 +5,80 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Patrix</title>
+  <title>Pods</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/fontawesome.css">
-  <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
 </head>
 
 <body>
   <!-- THE NAVBAR SECTION -->
-  <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Pods</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#testimonials">Team</a></li>
-          <li class="nav-item"><a class="nav-link" href="#faq">faq</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">contact</a>
-          </li>
-        </ul>
-        <button type="button" class="rounded-pill btn-rounded">
-          +123456789
-          <span>
-            <i class="fas fa-phone-alt"></i>
-          </span>
+  <div id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow">
+      <div class="container">
+        <a class="navbar-brand logo" href="#"> <img src="images/pods.png" alt=""> Pods</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">faq</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+          <button type="button" class="rounded-pill btn-rounded">
+            +(998) 90-555-11-22
+            <span>
+              <i class="fas fa-phone-alt"></i>
+            </span>
+          </button>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 
   <!-- THE INTRO SECTION -->
-  <section id="home" class="intro-section">
+  <section id="home" class="intro-section pb-5">
     <div class="container">
       <div class="row align-items-center text-white">
         <div class="col-md-6 intros text-start">
           <h1 class="display-2">
-            <span class="display-2--intro">Best Service For Customers</span>
-            <span class="display-2--description lh-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis
-              perspiciatis soluta vel dolores eligendi.
-            </span>
+            <span class="display-2--intro">Welcome, Lorem ipsum dolor sit.</span>
+            <span class="display-2--description lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+              alias itaque, deleniti blanditiis nisi quis ut doloribus soluta rerum vitae fugit? Tenetur unde minima
+              animi porro? Quas quos nulla eos tempore a.
           </h1>
-          <button type="button" class="rounded-pill btn-rounded">Get in Touch
+          <button type="button" class="rounded-pill btn-rounded">Explore
             <span><i class="fas fa-arrow-right"></i></span>
           </button>
         </div>
         <div class="col-md-6 intros text-end">
-          <div class="video-box">
-            <img src="images/arts/intro-section-illustration.png" alt="video illutration" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#ffffff" fill-opacity="1"
-        d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-      </path>
-    </svg>
-  </section>
-
-  <!-- THE CAMPANIES SECTION -->
-  <section id="campanies" class="campanies">
-    <div class="container">
-      <div class="row text-center">
-        <h4 class="fw-bold lead mb-3">Trusted by campanies like</h4>
-        <div class="heading-line mb-5"></div>
-      </div>
-    </div>  
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-1.png" alt="Campany 1 logo" title="Campany 1 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-2.png" alt="Campany 2 logo" title="Campany 2 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-3.png" alt="Campany 3 logo" title="Campany 3 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-4.png" alt="Campany 4 logo" title="Campany 4 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-5.png" alt="Campany 5 logo" title="Campany 5 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-6.png" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
+          <div style="width: 100%;">
+            <img src="images/panda.png" alt="video illustration" class="img-fluid">
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <br><br><br><br><br>
   <!-- THE SERVICES  -->
-  <section id="services" class="services">
+  <section id="services" class="services pt-5">
     <div class="container">
       <div class="row text-center">
-        <h1 class="display-3 fw-bold">Our Services</h1>
+        <h1 class="display-3 fw-bold">We Will Find The Best Option</h1>
         <div class="heading-line mb-1"></div>
       </div>
       <div class="row pt-2 pb-2 mt-0 mb-3">
         <div class="col-md-6 border-right">
           <div class="bg-white p-3">
             <h2 class="fw-bold text-capitalize text-center">
-              Our Services Range From Initial Design To Deployment Anywhere Anytime
+              You will comeback again and again and again
             </h2>
           </div>
         </div>
@@ -145,12 +97,18 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="services__content">
-            <div class="icon d-block fas fa-paper-plane"></div>
-            <h3 class="display-3--title mt-1">Marketing</h3>
-            <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-              doloremque autem quibusdam blanditiis harum alias hic accusantium
-              maxime atque ratione magni repellat?
+            <div class="icon d-block fas fa-paper-plane">
+              <h3 class="display-3--title mt-1">Message</h3>
+            </div>
+            <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolor laudantium at velit,
+              quibusdam enim vel blanditiis exercitationem asperiores pariatur corporis aliquid aperiam ducimus mollitia
+              ea nobis amet esse sit distinctio? Tenetur eos unde autem, at rem ad velit, necessitatibus totam sequi,
+              excepturi facere nisi ut quisquam veritatis dolorem in! Saepe ipsum tempore sed, minus libero perferendis
+              porro itaque inventore enim cumque temporibus corrupti, aut praesentium nisi labore voluptas rerum soluta
+              commodi, maiores ad sapiente tenetur vel aliquam. Voluptates accusantium eius optio eos at quod facilis
+              quae? Omnis ullam veniam incidunt mollitia ut, earum libero eius blanditiis, cumque quod hic molestias?
+              Tenetur aut culpa architecto minima distinctio consequatur adipisci, assumenda corporis quasi quas
+              nesciunt est!
             </p>
             <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
               <span><i class="fas fa-arrow-right"></i></span>
@@ -159,24 +117,33 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
           <div class="services__pic">
-            <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid">
+            <img src="images/panda2.png" class="img-fluid">
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
-          <div class="services__pic">
-            <img src="images/services/service-2.png" alt="web development illustration" class="img-fluid">
+          <div class="services__pic" style="width: 90%;">
+            <img src="images/parrot.png" class="img-fluid">
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="services__content">
-            <div class="icon d-block fas fa-code"></div>
-            <h3 class="display-3--title mt-1">web development</h3>
+            <div class="icon d-block fas fa-code">
+              <h3 class="display-3--title mt-1">HTML</h3>
+            </div>
             <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-              doloremque autem quibusdam blanditiis harum alias hic accusantium
-              maxime atque ratione magni repellat?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure esse quaerat, consectetur a quasi atque?
+              Obcaecati laudantium cumque ducimus pariatur rem soluta laborum qui cum molestias, in veniam dolorem
+              blanditiis quos commodi provident dolore, esse facere asperiores. Recusandae excepturi possimus inventore
+              quidem natus beatae, perferendis quisquam reprehenderit, obcaecati blanditiis distinctio eveniet. Labore
+              optio magni odio voluptas tenetur sapiente neque iusto esse eius, quisquam hic tempore non sint at ab.
+              Dolor nesciunt, error nam iusto, asperiores ratione labore natus laudantium numquam alias odio distinctio
+              et nostrum voluptate cum voluptatibus fugiat? Numquam obcaecati saepe distinctio nostrum aut veniam
+              asperiores optio assumenda nihil officiis veritatis aliquid fugiat earum quis dolor eum, velit a id
+              perferendis explicabo ipsum animi repudiandae eveniet molestias? Atque, ipsam sequi architecto, doloribus
+              iure illo minima magni quisquam labore quod distinctio, vel sunt aliquam tempora excepturi animi minus
+              corrupti exercitationem!
             </p>
             <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
               <span><i class="fas fa-arrow-right"></i></span>
@@ -187,12 +154,17 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="services__content">
-            <div class="icon d-block fas fa-cloud-upload-alt"></div>
-            <h3 class="display-3--title mt-1">cloud hosting</h3>
+            <div class="icon d-block fas fa-cloud-upload-alt">
+              <h3 class="display-3--title mt-1">Cloud Programming</h3>
+            </div>
             <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-              doloremque autem quibusdam blanditiis harum alias hic accusantium
-              maxime atque ratione magni repellat?
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, est alias sint obcaecati excepturi veniam
+              delectus corporis. Exercitationem dolore nobis beatae tempore dignissimos sequi at explicabo illo cum
+              mollitia? Praesentium qui, facilis at rerum non eius accusamus quisquam excepturi veritatis illum dolorum
+              vitae ut harum error, deleniti esse, iusto ea quasi vero? Ad optio quos quibusdam perspiciatis adipisci
+              fugiat mollitia? Culpa quibusdam, animi laboriosam aliquid ex cum repudiandae harum iusto aut blanditiis
+              odit aperiam dicta non optio quia qui mollitia deleniti nisi, eaque accusantium impedit maiores, nobis
+              provident ut. Culpa quo consectetur aliquam. Eveniet tempore earum et adipisci non.
             </p>
             <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
               <span><i class="fas fa-arrow-right"></i></span>
@@ -201,25 +173,154 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
           <div class="services__pic">
-            <img src="images/services/service-3.png" alt="cloud hosting illustration" class="img-fluid">
+            <img src="images/linux.png" class="img-fluid">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- THE TESTIMONIALS -->
+
+
+
+
+  <!-- THE PORTFOLIO -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row text-center mt-5">
+        <h1 class="display-3 fw-bold text-capitalize">Latest Projects</h1>
+        <div class="heading-line"></div>
+        <p class="lead">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, mollitia sint reprehenderit tenetur eaque,
+          aut, distinctio repudiandae dolorum amet dolor assumenda sed et?
+        </p>
+      </div>
+      <div class="row mt-5 mb-4 g-3 text-center">
+        <div class="col-md-12">
+          <button class="btn btn-outline-primary" type="button">All</button>
+          <button class="btn btn-outline-primary" type="button">websites</button>
+          <button class="btn btn-outline-primary" type="button">design</button>
+          <button class="btn btn-outline-primary" type="button">mockup</button>
+        </div>
+      </div>
+
+      <!-- START THE PORTFOLIO ITEMS  -->
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/team1.jpg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>PROJECT "NAME"</h4>
+                <p>PROJECT "CATEGORY"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/team2.jpg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>PROJECT "NAME"</h4>
+                <p>PROJECT "CATEGORY"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/team3.jpg" alt="portfolio 3 image" title="portfolio 3 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>PROJECT "NAME"</h4>
+                <p>PROJECT "CATEGORY"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/team4.jpg" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>PROJECT "NAME"</h4>
+                <p>PROJECT "CATEGORY"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/team5.jpg" alt="portfolio 5 image" title="portfolio 5 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>PROJECT "NAME"</h4>
+                <p>PROJECT "CATEGORY"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/team6.jpg" alt="portfolio 6 image" title="portfolio 6 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>PROJECT "NAME"</h4>
+                <p>PROJECT "CATEGORY"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/team7.jpg" alt="portfolio 7 image" title="portfolio 7 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>PROJECT "NAME"</h4>
+                <p>PROJECT "CATEGORY"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/team8.jpg" alt="portfolio 8 image" title="portfolio 8 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>PROJECT "NAME"</h4>
+                <p>PROJECT "CATEGORY"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/team9.jpg" alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>PROJECT "NAME"</h4>
+                <p>PROJECT "CATEGORY"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE TESTERS -->
   <section id="testimonials" class="testimonials">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#fff" fill-opacity="1"
-        d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        d="M0,160L34.3,138.7C68.6,117,137,75,206,96C274.3,117,343,203,411,234.7C480,267,549,245,617,208C685.7,171,754,117,823,128C891.4,139,960,213,1029,250.7C1097.1,288,1166,288,1234,288C1302.9,288,1371,288,1406,288L1440,288L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
       </path>
     </svg>
     <div class="container">
       <div class="row text-center text-white">
         <h1 class="display-3 fw-bold">Testimonials</h1>
         <hr style="width: 100px; height: 3px; " class="mx-auto">
-        <p class="lead pt-1">what our clients are saying</p>
+        <p class="lead pt-1">"Failing is not even a possible outcome" - Sarah G.</p>
       </div>
       <div class="row align-items-center">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -242,11 +343,11 @@
                 </p>
               </div>
               <div class="testimonials__picture">
-                <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
+                <img src="images/testimonials/user3.jpg" alt="user1 picture" class="rounded-circle img-fluid">
               </div>
               <div class="testimonials__name">
-                <h3>Patrick Muriungi</h3>
-                <p class="fw-light">CEO & founder</p>
+                <h3>Jay Tlor</h3>
+                <p class="fw-light">CEO Inc. Jaguar</p>
               </div>
             </div>
             <div class="carousel-item">
@@ -267,11 +368,11 @@
                 </p>
               </div>
               <div class="testimonials__picture">
-                <img src="images/testimonials/client-2.jpg" alt="client-2 picture" class="rounded-circle img-fluid">
+                <img src="images/testimonials/user2.png" alt="user2 picture" class="rounded-circle img-fluid">
               </div>
               <div class="testimonials__name">
-                <h3>Joy Marete</h3>
-                <p class="fw-light">Finance Manager</p>
+                <h3>Nick Alore</h3>
+                <p class="fw-light">PhD of Literature</p>
               </div>
             </div>
             <div class="carousel-item">
@@ -292,11 +393,11 @@
                 </p>
               </div>
               <div class="testimonials__picture">
-                <img src="images/testimonials/client-3.jpg" alt="client-3 picture" class="rounded-circle img-fluid">
+                <img src="images/testimonials/user1.jpg" alt="user3 picture" class="rounded-circle img-fluid">
               </div>
               <div class="testimonials__name">
-                <h3>ClaireBelle Zawadi</h3>
-                <p class="fw-light">Global brand manager</p>
+                <h3>Ricky D</h3>
+                <p class="fw-light">UFC Fighter</p>
               </div>
             </div>
             <div class="carousel-item">
@@ -317,11 +418,11 @@
                 </p>
               </div>
               <div class="testimonials__picture">
-                <img src="images/testimonials/client-4.jpg" alt="client-4 picture" class="rounded-circle img-fluid">
+                <img src="images/testimonials/user4.jpg" alt="user4 picture" class="rounded-circle img-fluid">
               </div>
               <div class="testimonials__name">
-                <h3>Uhuru Kenyatta</h3>
-                <p class="fw-light">C.E.O & Founder</p>
+                <h3>Kaitlen Fillins</h3>
+                <p class="fw-light">Actress</p>
               </div>
             </div>
           </div>
@@ -338,7 +439,7 @@
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#fff" fill-opacity="1"
-        d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        d="M0,320L21.8,272C43.6,224,87,128,131,128C174.5,128,218,224,262,256C305.5,288,349,256,393,202.7C436.4,149,480,75,524,74.7C567.3,75,611,149,655,149.3C698.2,149,742,75,785,80C829.1,85,873,171,916,208C960,245,1004,235,1047,197.3C1090.9,160,1135,96,1178,90.7C1221.8,85,1265,139,1309,160C1352.7,181,1396,171,1418,165.3L1440,160L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z">
       </path>
     </svg>
   </section>
@@ -432,139 +533,6 @@
     </div>
   </section>
 
-  <!-- THE PORTFOLIO -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-      <div class="row text-center mt-5">
-        <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
-        <div class="heading-line"></div>
-        <p class="lead">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
-        </p>
-      </div>
-      <div class="row mt-5 mb-4 g-3 text-center">
-        <div class="col-md-12">
-          <button class="btn btn-outline-primary" type="button">All</button>
-          <button class="btn btn-outline-primary" type="button">websites</button>
-          <button class="btn btn-outline-primary" type="button">design</button>
-          <button class="btn btn-outline-primary" type="button">mockup</button>
-        </div>
-      </div>
-
-      <!-- START THE PORTFOLIO ITEMS  -->
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 1</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 2</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 3</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 4</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-5.jpg" alt="portfolio 5 image" title="portfolio 5 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 5</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-6.jpg" alt="portfolio 6 image" title="portfolio 6 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 6</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-7.jpg" alt="portfolio 7 image" title="portfolio 7 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 7</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-8.jpg" alt="portfolio 8 image" title="portfolio 8 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 8</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-9.jpg" alt="portfolio 9 image" title="portfolio 9 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 9</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- GET STARTED  -->
   <section id="contact" class="get-started">
     <div class="container">
@@ -579,22 +547,22 @@
       <div class="row text-white">
         <div class="col-12 col-lg-6 gradient shadow p-3">
           <div class="cta-info w-100">
-            <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
+            <h4 class="display-4 fw-bold">We Guarantee for 100%</h4>
             <p class="lh-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto
               sint ipsam dolore tempora facere laboriosam corrupti!
             </p>
-            <h3 class="display-3--brief">What will be the next step?</h3>
+            <h3 class="display-3--brief">Refund available</h3>
             <ul class="cta-info__list">
-              <li>We'll prepare the proposal.</li>
-              <li>we'll discuss it together.</li>
-              <li>let's start the discussion.</li>
+              <li>First 14 days after purchase</li>
+              <li>Easy and fast</li>
+              <li>No off days - 24/7</li>
             </ul>
           </div>
         </div>
         <div class="col-12 col-lg-6 bg-white shadow p-3">
           <div class="form w-100 pb-2">
-            <h4 class="display-3--title mb-5">start your project</h4>
+            <h4 class="display-3--title mb-5">Get started with us</h4>
             <form action="#" class="row">
               <div class="col-lg-6 col-md mb-3">
                 <input type="text" placeholder="First Name" id="inputFirstName"
@@ -641,7 +609,7 @@
             </svg>
           </div>
           <div class="contact-box__info">
-            <a href="#" class="contact-box__info--title">+1 728365413</a>
+            <a href="#" class="contact-box__info--title">+(998) 90-555-11-22</a>
             <p class="contact-box__info--subtitle"> Mon-Fri 9am-6pm</p>
           </div>
         </div>
@@ -657,7 +625,7 @@
             </svg>
           </div>
           <div class="contact-box__info">
-            <a href="#" class="contact-box__info--title">info@company.com</a>
+            <a href="#" class="contact-box__info--title">sqwerty@company.com</a>
             <p class="contact-box__info--subtitle">Online support</p>
           </div>
         </div>
@@ -674,8 +642,8 @@
             </svg>
           </div>
           <div class="contact-box__info">
-            <a href="#" class="contact-box__info--title">New York, USA</a>
-            <p class="contact-box__info--subtitle">NY 10012, US</p>
+            <a href="#" class="contact-box__info--title">Tashkent, Uzbekistan</a>
+            <p class="contact-box__info--subtitle">100150, UZ</p>
           </div>
         </div>
       </div>
@@ -685,8 +653,8 @@
     <div class="footer-sm" style="background-color: #212121;">
       <div class="container">
         <div class="row py-4 text-center text-white">
-          <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-            connect with us on social media
+          <div class="col-lg-5 col-md-6 mb-4 mb-md-0" style="font-size: 25px;">
+            Follow our Socials
           </div>
           <div class="col-lg-7 col-md-6">
             <a href="#"><i class="fab fa-facebook"></i></a>
@@ -699,21 +667,22 @@
       </div>
     </div>
 
-    <!-- START THE CONTENT FOR THE CAMPANY INFO -->
+    <!-- START THE CONTENT FOR THE COMPANY INFO -->
     <div class="container mt-5">
       <div class="row text-white justify-content-center mt-3 pb-3">
         <div class="col-12 col-sm-6 col-lg-6 mx-auto">
-          <h5 class="text-capitalize fw-bold">Campany name</h5>
+          <h5 class="text-capitalize fw-bold">Company name</h5>
           <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex obcaecati blanditiis reprehenderit ab
-            mollitia voluptatem consectetur?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, debitis assumenda fuga qui tempore
+            blanditiis illo. Adipisci aut omnis, veritatis soluta sint labore aliquid voluptatum, repellendus a aliquam
+            laborum est nihil asperiores, saepe consectetur dolor!
           </p>
         </div>
         <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
           <h5 class="text-capitalize fw-bold">Products</h5>
           <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-          <ul class="list-inline campany-list">
+          <ul class="list-inline company-list">
             <li><a href="#">Lorem ipsum</a></li>
             <li><a href="#">Lorem ipsum</a></li>
             <li><a href="#">Lorem ipsum</a></li>
@@ -721,19 +690,19 @@
           </ul>
         </div>
         <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-          <h5 class="text-capitalize fw-bold">useful links</h5>
+          <h5 class="text-capitalize fw-bold">links</h5>
           <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-          <ul class="list-inline campany-list">
-            <li><a href="#"> Your Account</a></li>
-            <li><a href="#">Become an Affiliate</a></li>
-            <li><a href="#">create an account</a></li>
-            <li><a href="#">Help</a></li>
+          <ul class="list-inline company-list">
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
           </ul>
         </div>
         <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
           <h5 class="text-capitalize fw-bold">contact</h5>
           <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-          <ul class="list-inline campany-list">
+          <ul class="list-inline company-list">
             <li><a href="#">Lorem ipsum</a></li>
             <li><a href="#">Lorem ipsum</a></li>
             <li><a href="#">Lorem ipsum</a></li>
@@ -749,8 +718,7 @@
         <div class="row text-center text-white">
           <div class="col-12">
             <div class="footer-bottom__copyright">
-              &COPY; Copyright 2021 <a href="#">Company</a> | Created by <a href="http://twitter.com/itsmuriungi"
-                target="_blank">Muriungi</a>
+              &COPY; Copyright 2023 | Created by JT
             </div>
           </div>
         </div>
@@ -758,13 +726,24 @@
     </div>
   </footer>
 
-  <!-- BACK TO TOP BUTTON  -->
   <a href="#" class="shadow btn-primary rounded-circle back-to-top">
     <i class="fas fa-chevron-up"></i>
   </a>
 
   <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="./app.js"></script>
+
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-80px";
+      }
+      prevScrollpos = currentScrollPos;
+    } 
+  </script>
 </body>
 
 </html>

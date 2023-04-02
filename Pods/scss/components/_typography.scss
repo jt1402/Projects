@@ -6,6 +6,7 @@
     font-family: 'Poppins', sans-serif;
 
     &--intro {
+        margin-top: -10rem;
         display: inline-block;
         font-weight: 700;
         font-family: 'Poppins', sans-serif;
@@ -25,7 +26,7 @@
     }
 }
 
-// HEADING LINE 
+
 .heading-line::before {
     content: "";
     width: 10rem;
@@ -45,7 +46,7 @@
     background-color: $primary;
 }
 
-// DISPLAY 3 
+
 .display-3 {
     font-family: 'Poppins', sans-serif;
 
@@ -68,7 +69,7 @@
     }
 }
 
-// BORDER RIGHT 
+
 .border-right {
     border-right: 0;
 
@@ -79,7 +80,7 @@
 }
 
 
-// GRADIENT BG 
+
 .gradient  {
     background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
 }
