@@ -2,10 +2,10 @@
 All of the projects were remade by myself.
 
 ## Sites:
-* Patrix
+* Pods
 * Plants
 * Zoo Website 
-* Scalla
+* Cereal
 ## Technologies:
 * HTML
 * CSS 
