@@ -3,7 +3,7 @@ All of the projects were made/remade by myself.
 
 ## Sites:
 * Pods
-* Plants
+* Boosted
 * Zoo Website 
 * Cereal
 ## Technologies:
