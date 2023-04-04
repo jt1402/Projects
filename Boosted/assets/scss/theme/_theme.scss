@@ -1,0 +1,35 @@
+
+body.dark-theme{
+    --first-color-dark: rgba(0, 0, 0, 0.37);
+    --title-color: rgb(206, 204, 204);
+    --text-color: rgb(209, 205, 205);
+    --body-color: rgba(22, 22, 22, 0.986);
+    --container-color: rgb(23, 25, 54);
+}
+
+.change-theme {
+    color: var(--title-color);
+    font-size: 1.15rem;
+    cursor: pointer;
+}
+
+.nav__btns{
+    display: inline-flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+
+.dark-theme .steps__bg,
+.dark-theme .questions{
+    background-color: var(--first-color-dark);
+}
+
+.dark-theme .product__circle,
+.dark-theme .footer__subscribe{
+    background-color: var(--container-color);
+}
+
+.dark-theme .scroll-header{
+    box-shadow: 0 1px 4px hsla(var(--hue), 4%, 4%, .3);
+}
