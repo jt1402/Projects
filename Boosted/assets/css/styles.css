@@ -409,33 +409,33 @@ body.dark-theme {
   font-size: var(--small-font-size);
 }
 
-.product__description {
+.plan__description {
   text-align: center;
 }
-.product__container {
+.plan__container {
   padding: 3rem 0;
   grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem 3rem;
 }
-.product__card {
+.plan__card {
   display: grid;
   position: relative;
 }
-.product__img {
+.plan__img {
   position: relative;
   width: 120px;
   justify-self: center;
   margin-bottom: var(--mb-0-75);
 }
-.product__title, .product__price {
+.plan__title, .plan__price {
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
-.product__title {
+.plan__title {
   margin-bottom: 0.25rem;
 }
-.product__button {
+.plan__button {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -445,10 +445,10 @@ body.dark-theme {
   border-radius: 0.35rem;
   font-size: 1.15rem;
 }
-.product__button:hover {
+.plan__button:hover {
   background-color: var(--first-color-alt);
 }
-.product__circle {
+.plan__circle {
   width: 90px;
   height: 90px;
   background-color: var(--first-color-lighten);
@@ -716,7 +716,7 @@ body.dark-theme {
   .steps__card {
     padding: 1.5rem;
   }
-  .product__container {
+  .plan__container {
     grid-template-columns: 0.6fr;
     justify-content: center;
   }
@@ -725,10 +725,10 @@ body.dark-theme {
   .steps__container {
     grid-template-columns: repeat(2, 1fr);
   }
-  .product__description {
+  .plan__description {
     padding: 0 4rem;
   }
-  .product__container {
+  .plan__container {
     grid-template-columns: repeat(2, 170px);
     justify-content: center;
     column-gap: 5rem;
@@ -817,22 +817,22 @@ body.dark-theme {
   .steps__card-title {
     font-size: var(--normal-font-size);
   }
-  .product__description {
+  .plan__description {
     padding: 0 16rem;
   }
-  .product__container {
+  .plan__container {
     padding: 4rem 0;
     grid-template-columns: repeat(3, 185px);
     gap: 4rem 6rem;
   }
-  .product__img {
+  .plan__img {
     width: 160px;
   }
-  .product__circle {
+  .plan__circle {
     width: 110px;
     height: 110px;
   }
-  .product__title, .product__price {
+  .plan__title, .plan__price {
     font-size: var(--normal-font-size);
   }
   .questions__container {
