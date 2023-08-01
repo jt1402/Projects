@@ -1,4 +1,5 @@
 # My Porjects(Front-only)
+Feel free to contact me if u need server-side of these projects.
 
 ## Sites:
 * Pods
