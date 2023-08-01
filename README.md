@@ -1,5 +1,4 @@
-# Frontend-Porjects
-All of the projects were made/remade by myself.
+# My Porjects
 
 ## Sites:
 * Pods
