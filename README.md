@@ -6,8 +6,11 @@ Feel free to contact me if u need server-side of these projects.
 * Boosted
 * Zoo Website 
 * Cereal
-## Technologies:
-* HTML
-* CSS 
-* Javascript 
+## Technologies(Front-only):
+* HTML5
+* CSS3
+* Bootstrap5
+* TailwindCss
+* Javascript
+* JQuery
 * SCSS
